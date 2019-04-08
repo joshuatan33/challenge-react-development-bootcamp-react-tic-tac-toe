@@ -1,0 +1,44 @@
+.divStyle {
+  margin: 2px;
+  border: 4px solid black;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+  font-size: 100px;
+  text-align: center;
+  padding: auto auto;
+  background-color: grey;
+  float: left;
+}
+
+.divStyle:nth-child(3n + 1) {
+  clear: both;
+}
+
+.disabledDiv {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.buttonStyle {
+  width: 100px;
+  height: 75px;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.header {
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+}
+
+.footer {
+  width: 100vw;
+  height: 50px;
+}
